@@ -31,6 +31,11 @@ function findOddSum(fullArray) {
 
 const arr = [32, 16, 58, 74, 96, 15, 68, 33, 17, 94, 6, 16];
 
-const oddSum = findOddSum(arr);
+const arrSum = getNumberArraySum(arr);
+console.log(arrSum);
 
+const oddArray = getOddArrayFromFullArray(arr);
+console.log(oddArray);
+
+const oddSum = findOddSum(arr);
 console.log(oddSum);
