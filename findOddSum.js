@@ -23,7 +23,7 @@ function getOddArrayFromFullArray(fullArrayOfNumbers) {
     return oddArray;
 }
 
-function findOddSum(fullArray) {
+function findOddArraySum(fullArray) {
     const oddArray = getOddArrayFromFullArray(fullArray);
     const oddArraySum = getNumberArraySum(oddArray);
     return oddArraySum;
@@ -37,5 +37,5 @@ console.log(arrSum);
 const oddArray = getOddArrayFromFullArray(arr);
 console.log(oddArray);
 
-const oddSum = findOddSum(arr);
+const oddSum = findOddArraySum(arr);
 console.log(oddSum);
