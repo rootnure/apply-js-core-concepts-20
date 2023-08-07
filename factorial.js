@@ -8,5 +8,13 @@ function findFactorial(number) {
     return fact;
 }
 
-const factorial = findFactorial(5);
-console.log(factorial);
+// function multiplicationOfNumbers(number) {
+//     let result = 1;
+//     for (let i = 1; i<=number; i++){
+//         result = result * i;
+//     }
+//     return result;
+// }
+
+console.log(factorial, multiplicationOfNumbers(10));
+const factorial = findFactorial(10);
